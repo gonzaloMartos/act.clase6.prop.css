@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap');
+
+
+
+header{
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../img/vtf.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 8px solid black;
+}
+
+h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 60px;
+    color: rgb(221, 255, 32);
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    gap: 10em;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(221, 255, 32);
+    font-size: 30px;
+    background-color: rgba(228, 30, 30, 0.705);
+    padding: 10px 20px;
+    margin: 1em;
+    border: 2px solid;
+}
+
+main{
+text-align: center;
+background-color: rgb(95, 162, 250);
+border: solid black; 
+}
+
+
+h2{
+    color: black;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 30px;
+    background-color: #c9c2c2;
+    padding: 1em;
+    border: solid black;   
+}
+
+h3{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 25px;
+    background-color: #c9c2c2;
+    text-align: left; 
+    padding: 1em;
+    border: solid black;
+}
+
+.info{
+    list-style-type: disc;
+}
+
+.imp{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+li{
+    padding: 1em;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;  
+}
+
+footer{
+    display: flex;
+    padding: 1em;
+    background-color: #c9c2c2;
+    text-align: center;
+    border: solid black;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.instagram, .github{
+    margin: auto;   
+}
+
+.bxl-instagram-alt, .bxl-github{
+    font-size: 40px;
+}
+
+.gitlink{
+    background-color: #c9c2c2;
+    border: none;
+    color: black;
+}
